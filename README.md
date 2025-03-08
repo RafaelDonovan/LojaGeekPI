@@ -35,4 +35,3 @@ insert into usuario (nome, cpf, email, senha, estatus, grupo, backoffice) values
 =======
 # LojaGeekPI
 Projeto Integrador da Faculdade que eu participei
->>>>>>> e679f338104058b12cee2adf69ea68ee14636a24
