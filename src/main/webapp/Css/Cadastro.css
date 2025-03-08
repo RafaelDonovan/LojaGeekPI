@@ -1,0 +1,53 @@
+.descricao {
+  width: 300px;
+  height: 150px;
+}
+
+:root {
+  --borders: 1px solid #eee;
+  --spacing: 2rem;
+  --error: #f55;
+}
+
+form {
+  max-width: 32rem;
+  margin: var(--spacing) auto;
+  font-family: sans-serif;
+}
+
+form hr {
+  margin-bottom: var(--spacing);
+}
+
+form > div {
+  background: #fafafa;
+  border: var(--borders);
+  padding: var(--spacing);
+  margin-bottom: var(--spacing);
+}
+
+form fieldset {
+  border: var(--borders);
+}
+
+form button {
+  display: block;
+  width: 10rem;
+  margin: 0 auto;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.invalid {
+  border: 1px solid var(--error);
+}
+
+.error-msg {
+  color: var(--error);
+  margin-top: calc(var(--spacing) / 4);
+}
+
+.success {
+  background-color: #efd;
+  color: forestgreen;
+}
